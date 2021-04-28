@@ -1,0 +1,82 @@
+.page-one{
+    height: 960px;
+    background: url(img/main-bg.jpg);
+    background-size: cover;
+}
+
+.row {
+    width: 100%;
+}
+
+.page-two{
+    height: 960px;
+    background: url(img/the-games-bg.jpg);
+    background-size: cover;
+}
+
+.carousel-indicators button{
+    border: 1px solid white;
+    display: inline-block;
+    height: 20px;
+}
+
+.page-three{
+    height: 960px;
+    background: url(img/features.jpg);
+    background-size: cover;
+}
+
+.circle {
+    height: 1rem;
+    width: 1rem;
+    border: 1px solid white;
+
+}
+
+.page-four {
+    height: 960px;
+    background: url(img/requirements.png);
+    background-size: cover;
+}
+
+.bg-layer{
+    background: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 98%);
+    /* position: absolute; */
+}
+
+.page-five{
+    height:960px;
+    background: #111111;
+}
+
+.review {
+    height: 180px;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+
+.evan {
+    background: url(img/evan.JPG); 
+    
+}
+
+.jada {
+    background: url(img/jada.jpg); 
+    
+
+}
+
+
+.aaron{
+    background: url(img/aaron.jpg);
+}
+.avatar {
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 12px 4px #FFB548;
+    background-size: cover;
+}
+
