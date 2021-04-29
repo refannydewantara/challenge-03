@@ -4,7 +4,7 @@
     background-size: cover;
 }
 
-.row {
+.row.navbartop {
     width: 100%;
 }
 
@@ -80,3 +80,78 @@
     background-size: cover;
 }
 
+.page-six{
+    height: 960px;
+    background: #222;
+}
+
+.page-six .content{
+    margin-top: 20vh;
+}
+
+.skull {
+    height: 72vh;
+    background: url(img/skull.jpg);
+    background-size: cover;
+    margin-top: 10vh;
+}
+
+.row.footer {
+    margin-top: 6vh;
+}
+
+.email-form{
+    height: 6vh;
+}
+.email-label{
+    position: absolute!important;
+    display: flex;
+    color: #aaa;
+    margin: 2px 0 0 12px;
+
+}
+
+.email-form input
+{
+    height: 100%;
+    font-size: 1.5em;
+    padding-top: 16px;
+    color: #FFB548;
+}
+
+.email-form button{
+    height: 100%;
+    width: 100%;
+}
+
+.footer-menu,
+.footer-socmed {
+    justify-content: space-around;
+    
+}
+
+.footer-menu li, .footer-socmed li{
+    list-style: none;
+}
+
+.footer-menu li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.row.copyright{
+    justify-content: center;
+    margin-top: 2vh;;
+}
+.footer-bot{    
+    padding: 0;
+    width: 84%;
+    border-top: 1px solid white;
+    display: flex;
+}
+
+.footer-bot .quotes {
+    color: #aaa
+}
