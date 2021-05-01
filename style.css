@@ -1,157 +1,125 @@
-.page-one{
-    height: 960px;
-    background: url(img/main-bg.jpg);
-    background-size: cover;
+.page-one {
+  height: 960px;
+  background: url(img/main-bg.jpg);
+  background-size: cover;
 }
 
-.row.navbartop {
-    width: 100%;
+.page-one .navbar-block {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.page-two{
-    height: 960px;
-    background: url(img/the-games-bg.jpg);
-    background-size: cover;
+.page-one .navbartop {
+  width: 100%;
 }
 
-.carousel-indicators button{
-    border: 1px solid white;
-    display: inline-block;
-    height: 20px;
+.page-one .row-content {
+  margin-top: 30vh;
 }
 
-.page-three{
-    height: 960px;
-    background: url(img/features.jpg);
-    background-size: cover;
+.page-one .row-desc {
+  margin-top: 1.5rem;
 }
 
-.circle {
-    height: 1rem;
-    width: 1rem;
-    border: 1px solid white;
+.page-one .row-button {
+  margin-top: 1.5rem;
+}
 
+.page-one .row-arrow {
+  margin-top: 30vh;
+}
+
+.page-two {
+  height: 960px;
+  background: url(img/the-games-bg.jpg);
+  background-size: cover;
+}
+
+.page-two .page-hero {
+  margin-top: 20vh;
+}
+
+.page-two .page-content {
+  margin-top: 20vh;
+}
+
+.page-two .page-content .carousel-indicators button {
+  border: 1px solid white;
+  display: inline-block;
+  height: 20px;
+}
+
+.page-two .page-content img {
+  height: 50vh;
+}
+
+.page-two .page-content .carousel-control-prev-icon {
+  margin-left: -160px;
+}
+
+.page-two .page-content .carousel-control-next-icon {
+  margin-right: -160px;
+}
+
+.page-three {
+  height: 960px;
+  background: url(img/features.jpg);
+  background-size: cover;
+}
+
+.page-three .page-hero {
+  padding-top: 20vh;
+}
+
+.page-three .page-hero .cont-title {
+  margin-left: 1.5rem;
+}
+
+.page-three .page-content .cont-line {
+  width: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 3rem;
+  left: 5rem;
+  position: relative;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-three .page-content .cont-line * {
+  margin: 0;
+}
+
+.page-three .page-content .cont-line .circle {
+  height: 1rem;
+  width: 1rem;
+  border: 1px solid white;
+}
+
+.page-three .page-content .cont-line .line {
+  height: 7rem;
+  width: 1px;
+}
+
+.page-three .page-content .cont-line .space {
+  height: 2.5rem;
+  width: 1px;
+  margin-left: 1.5rem;
+}
+
+.page-three .page-content .cont-content {
+  margin-top: 3rem;
 }
 
 .page-four {
-    height: 960px;
-    background: url(img/requirements.png);
-    background-size: cover;
+  height: 960px;
+  background: url(img/requirements.png);
+  background-size: cover;
 }
-
-.bg-layer{
-    background: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 98%);
-    /* position: absolute; */
-}
-
-.page-five{
-    height:960px;
-    background: #111111;
-}
-
-.review {
-    height: 180px;
-    border-radius: 8px;
-    background-color: rgba(255,255,255,0.1);
-}
-
-
-.evan {
-    background: url(img/evan.JPG); 
-    
-}
-
-.jada {
-    background: url(img/jada.jpg); 
-    
-
-}
-
-
-.aaron{
-    background: url(img/aaron.jpg);
-}
-.avatar {
-    height: 60px;
-    width: 60px;
-    border: 1px solid white;
-    border-radius: 50%;
-    box-shadow: 12px 4px #FFB548;
-    background-size: cover;
-}
-
-.page-six{
-    height: 960px;
-    background: #222;
-}
-
-.page-six .content{
-    margin-top: 20vh;
-}
-
-.skull {
-    height: 72vh;
-    background: url(img/skull.jpg);
-    background-size: cover;
-    margin-top: 10vh;
-}
-
-.row.footer {
-    margin-top: 6vh;
-}
-
-.email-form{
-    height: 6vh;
-}
-.email-label{
-    position: absolute!important;
-    display: flex;
-    color: #aaa;
-    margin: 2px 0 0 12px;
-
-}
-
-.email-form input
-{
-    height: 100%;
-    font-size: 1.5em;
-    padding-top: 16px;
-    color: #FFB548;
-}
-
-.email-form button{
-    height: 100%;
-    width: 100%;
-}
-
-.footer-menu,
-.footer-socmed {
-    justify-content: space-around;
-    
-}
-
-.footer-menu li, .footer-socmed li{
-    list-style: none;
-}
-
-.footer-menu li a{
-    text-decoration: none;
-    color: inherit;
-}
-
-
-
-.row.copyright{
-    justify-content: center;
-    margin-top: 2vh;;
-}
-.footer-bot{    
-    padding: 0;
-    width: 84%;
-    border-top: 1px solid white;
-    display: flex;
-}
-
-.footer-bot .quotes {
-    color: #aaa
-}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,127 @@
+.page-one {
+    height: 960px;
+    background: url(img/main-bg.jpg);
+    background-size: cover;
+
+    .navbar-block {
+        background-color: rgba(0,0,0,0.5)
+    }
+
+    .navbartop {
+        width: 100%;
+    }
+
+    .row-content {
+        margin-top:30vh;
+    }
+
+    .row-desc {
+        margin-top: 1.5rem;
+    }
+
+    .row-button {
+        margin-top: 1.5rem;
+    }
+
+    .row-arrow {
+        margin-top:30vh; 
+    }
+}
+
+.page-two {
+    height: 960px;
+    background: url(img/the-games-bg.jpg);
+    background-size: cover;
+
+    .page-hero {
+        margin-top:20vh;
+    }
+
+    .page-content {
+        margin-top:20vh;
+
+        .carousel-indicators button{
+            border: 1px solid white;
+            display: inline-block;
+            height: 20px;
+        }
+
+        img {
+            height: 50vh;
+        }
+
+        .carousel-control-prev-icon{
+            margin-left: -160px;
+        }
+
+        .carousel-control-next-icon{
+            margin-right: -160px;
+        }
+    }
+
+}
+
+.page-three{
+    height: 960px;
+    background: url(img/features.jpg);
+    background-size: cover;
+
+    .page-hero{
+        padding-top: 20vh;
+
+        .cont-title{
+            margin-left: 1.5rem;
+        }
+    }
+
+    .page-content{
+
+        .cont-line{
+            width: 24px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 3rem;
+            left: 5rem; 
+            position: relative;
+            padding: 0;
+            align-items: center;
+
+            *{
+                margin: 0;
+                
+            }
+
+            .circle {
+                height: 1rem;
+                width: 1rem;
+                border: 1px solid white;
+            
+            }
+    
+            .line{
+                height: 7rem;
+                width: 1px;
+                
+            }
+    
+            .space{
+                height: 2.5rem;
+                width: 1px;
+                margin-left: 1.5rem;
+            }
+        }
+
+        .cont-content{
+            margin-top: 3rem;
+        }
+
+
+
+    }
+}
+
+.page-four {
+    height: 960px;
+    background: url(img/requirements.png);
+    background-size: cover;
+}
