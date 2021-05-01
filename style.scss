@@ -124,4 +124,211 @@
     height: 960px;
     background: url(img/requirements.png);
     background-size: cover;
+
+    .bg-layer{
+        background: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 98%);
+        height: 100%;
+    }
+
+    .page-hero{
+        margin-top:10vh;
+    }
+
+    .page-quotes{
+        margin-top:5vh;
+    }
+
+    .page-content::before{
+        content: "";
+        margin-left: -1vh;
+        position: absolute;
+        height: 50%;
+        width: 42vw;
+        background: url(img/bg-sys.svg);
+        background-size: 85%;
+        background-repeat: no-repeat;
+        filter: brightness(2);
+        
+    }
+
+    .page-content{
+        margin-top: 5vh;
+
+        .cont-content1{
+            margin-top: 0.5rem;  
+        }
+
+        .cont-content2{
+            margin-top: 1.25rem;
+        }
+
+        .cont-content3{
+            margin-top: 2.5rem;
+        }
+
+    }
+
+}
+
+.page-five{
+    height:960px;
+    background: #111111;
+
+    .page-hero{
+        margin-top: 30vh;
+
+        button{
+            padding: 0.75rem 3rem;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .page-content {
+
+        .cont-card{
+            height: 180px;
+            border-radius: 8px;
+            background-color: rgba(255,255,255,0.1);
+            margin-top: 3rem;
+            padding: 1.5rem;
+
+            .avatar {
+                height: 60px;
+                width: 60px;
+                border: 1px solid white;
+                border-radius: 50%;
+                box-shadow: 12px 4px #FFB548;
+                background-size: cover;
+            }
+
+            .evan {
+                background: url(img/evan.JPG); 
+                
+            }
+            
+            .jada {
+                background: url(img/jada.jpg);  
+            
+            }
+            
+            .aaron{
+                background: url(img/aaron.jpg);
+            }
+
+            .cont-card-title{
+                margin-top: 0.5rem;
+            }
+
+            .cont-card-subtitle{
+                color:#aaa;
+                margin-top: -4px;
+            }
+
+            .cont-card-text{
+                margin-top: 0.5rem;
+            }
+
+            .cont-card-date{
+                color:#aaaaaa;
+            }
+
+        }
+    }
+    
+}
+
+.page-six{
+    height: 960px;
+    background:#080A0B;
+
+    .bg-layer{
+
+        .skull-img {
+            height: 72vh;
+            background: url(img/skull.jpg);
+            background-size: 100%;
+            margin-top: 10vh;
+        
+            
+        }
+        
+        .skull-overlay{
+            margin: -1px 0 0 -1px;
+            height: 101%;
+            width: 101%;
+            background: radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080A0B 99.74%);
+        }
+    }
+
+    .page-content{
+        margin-top: 20vh;
+
+        .email-form{
+            height: 6vh;
+
+            .email-label{
+                position: absolute!important;
+                display: flex;
+                color: #aaa;
+                margin: 2px 0 0 12px;
+            
+            }
+
+            input{
+                height: 100%;
+                font-size: 1.5em;
+                padding-top: 16px;
+                color: #FFB548;
+            }
+
+            button{
+                height: 100%;
+                width: 100%;
+            }
+            
+        }
+    }
+
+    .page-footer{
+        margin-top: 6vh;
+
+        .footer-menu{
+            justify-content: space-around;
+
+            li{
+                list-style: none;
+
+                a {
+                    color: inherit;
+                }
+            }
+
+        }
+
+
+        .footer-socmed{
+            justify-content: space-around;
+
+            li{
+                list-style: none;
+            }
+        
+        }
+    }
+
+    .page-copyright{
+        justify-content: center;
+        margin-top: 2vh;
+    }
+
+    .copy-text{
+        padding: 0;
+        width: 84%;
+        border-top: 1px solid white;
+        display: flex;
+
+        .quotes{
+            color: #aaaaaa:
+        }
+    }
 }

@@ -44,7 +44,7 @@
     /* position: absolute; */
 }
 
-.sys-req::before{
+.page-content::before{
     content: "";
     margin-left: -1vh;
     position: absolute;
@@ -63,7 +63,7 @@
     background: #111111;
 }
 
-.review {
+.cont-card {
     height: 180px;
     border-radius: 8px;
     background-color: rgba(255,255,255,0.1);
@@ -76,11 +76,9 @@
 }
 
 .jada {
-    background: url(img/jada.jpg); 
-    
+    background: url(img/jada.jpg);  
 
 }
-
 
 .aaron{
     background: url(img/aaron.jpg);
@@ -134,8 +132,7 @@
 
 }
 
-.email-form input
-{
+.email-form input{
     height: 100%;
     font-size: 1.5em;
     padding-top: 16px;
