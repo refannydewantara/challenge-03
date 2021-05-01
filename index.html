@@ -15,7 +15,7 @@
   <body>
     <div class="page-one">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-md navbar-light" style="background-color: rgba(0,0,0,0.5)">
+      <nav class="navbar navbar-expand-md navbar-light navbar-block">
         <div class="container-fluid">
           <div class="row navbartop">
             <div class="col-sm-3 col">
@@ -63,22 +63,22 @@
 
       <!-- Content -->
       <div class="container-fluid text-light">
-        <div class="row" style="margin-top:30vh;">
+        <div class="row row-content">
           <div class="col-sm-12 text-center">
             <h1>PLAY TRADITIONAL GAME</h1>
           </div>
         </div>
-        <div class="row mt-5">
+        <div class="row row-desc">
           <div class="col-sm-12 text-center">
             <h5>Experience new traditional gameplay</h5>
           </div>
         </div>
-        <div class="row mt-5">
+        <div class="row row-button">
           <div class="col-sm-12 text-center">
             <button type="button" class="btn btn-warning px-5 py-3"><span class="align-middle">PLAY NOW</span></button>
           </div>
         </div>
-        <div class="row " style="margin-top:30vh;">
+        <div class="row row-arrow">
           <div class="col-sm-12 text-center">
             <h5>THE STORY</h5>
             <span><i class="bi bi-caret-down"></i></span>
@@ -91,11 +91,11 @@
     <div class="page-two">
       <div class="container-fluid text-light">
         <div class="row" >
-          <div class="col-sm-3 offset-sm-1 text-start" style="margin-top:20vh;">
+          <div class="col-sm-3 offset-sm-1 text-start page-hero">
             <span class="display-6">What's so special?</span> <br>
             <span class="display-3">THE GAMES</span>
           </div>
-          <div class="col-sm-7" style="margin-top:20vh;">
+          <div class="col-sm-7 page-content">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded" aria-current="true" aria-label="Slide 1"></button>
@@ -104,21 +104,21 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="img/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="..." style="height:50vh;">
+                  <img src="img/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="..." style="height:50vh;">
+                  <img src="img/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="..." style="height:50vh;">
+                  <img src="img/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="...">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true" style="margin-left: -160px;"></span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true" style="margin-right: -160px;"></span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
@@ -129,23 +129,23 @@
 
     <div class="page-three">
       <div class="container-fluid text-light">
-        <div class="row">
-          <div class="col-sm-6" style="margin-top:20vh;"></div>
-          <div class="col-sm-5 mx-5" style="margin-top:20vh;">
+        <div class="row page-hero">
+          <div class="col-sm-6"></div>
+          <div class="col-sm-5 cont-title">
             <span class="display-6">What's so special?</span> <br>
             <span class="display-3">FEATURES</span>
           </div>
         </div>
-        <div class="row">
+        <div class="row page-content">
           <div class="col-sm-6"></div>
-          <div class="col-sm-1 mt-5 d-flex flex-column" style="left: 5rem; position: relative;;">
+          <div class="col-sm-1 cont-line">
             <span class="circle rounded-circle d-inline-block bg-light"></span>
-            <span class="line d-inline-block bg-light mx-2" style="height: 7rem; width: 1px"></span>
+            <span class="line d-inline-block bg-light"></span>
             <span class="circle rounded-circle d-inline-block"></span>
-            <span class="line d-inline-block mx-2" style="height: 2.5rem; width: 1px"></span>
+            <span class="space d-inline-block"></span>
             <span class="circle rounded-circle d-inline-block"></span>
           </div>
-          <div class="col-sm-3 mt-5">
+          <div class="col-sm-3 offset-1 cont-content">
             <h5 class="text-warning">TRADITIONAL GAMES</h5>
             <p>If you miss your childhood, we provide many traditional games here.</p> <br>
 
@@ -169,30 +169,30 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-5 offset-sm-1" style="margin-top:5vh">
+          <div class="col-sm-5 offset-sm-1 sys-req" style="margin-top:5vh">
             
-              <div class="row">
-                <div class="col-sm-6 border border-light border-1 pt-2">
+              <div class="row mt-2">
+                <div class="col-sm-5">
                   <h5 class="text-warning">OS</h5>
                   <p>Windows 7 64-bit only <br>&lpar;No OSX support at this time&rpar;</p>
                 </div>
-                <div class="col-sm-6 border border-light border-1 pt-2">
+                <div class="col-sm-6">
                   <h5 class="text-warning">Processor</h5>
                   <p>Intel Core 2 Duo @ 2.4GHz or <br>AMD Athlon X2 @ 2.8GHz</p>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-sm-6 border border-light border-1 pt-2">
+              <div class="row mt-3">
+                <div class="col-sm-5">
                   <h5 class="text-warning">Memory</h5>
                   <p>4GB RAM</p>
                 </div>
-                <div class="col-sm-6 border border-light border-1 pt-2">
+                <div class="col-sm-6">
                   <h5 class="text-warning">Storage</h5>
                   <p>8GB available space</p>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-sm-12 border border-light border-1 pt-2">
+              <div class="row mt-5">
+                <div class="col-sm-12">
                   <h5 class="text-warning">Graphics</h5>
                   <p>NVIDIA GTX 660 2GB or<br>AMD Radeon HD 7850 2GB DirectX11 &lpar;Shader Model 5&rpar;</p>
                 </div>
@@ -302,7 +302,9 @@
       <div class="container-fluid text-light p-0">
         <div class="row">
           <div class="col-sm-4 offset-sm-1">
-            <div class="skull"></div>
+            <div class="skull-img">
+              <div class="skull-overlay"></div>
+            </div>
           </div>
           <div class="col-sm-5 offset-sm-1 content">
             <span class="display-6">Want to stay in touch?</span> <br>
